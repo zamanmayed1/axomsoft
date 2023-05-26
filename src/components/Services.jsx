@@ -62,7 +62,7 @@ const services = [
 
 const Services = () => {
   return (
-    <div id="#services" className="bg-[#d7dde37e] w-full min-h-[100vh] ">
+    <div id="#services" className="bg-[#f9fbfe] w-full min-h-[100vh] ">
       <div className="max-w-[1440px] w-full mx-auto p-4 ">
         <ComponentTitle
           data={{
