@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*>* {
+  font-family: "Poppins", sans-serif;
+}
+.bg-glass {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+.text-h-title {
+  font-family: "Hind", sans-serif;
+  line-height: 160%;
+}
+
+/* Hide the custom scrollbar in webkit-based browsers */
+::-webkit-scrollbar {
+  display: none;
+}
+.h-bg {
+  background-image: linear-gradient(
+    to right top,
+    #f0f4f8,
+    #f2f5f9,
+    #f3f6fb,
+    #f5f7fc,
+    #f7f8fd
+  );
+}
